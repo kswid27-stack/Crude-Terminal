@@ -1,0 +1,47 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #050505;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-header {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  padding: 20px 40px;
+  border-bottom: 2px solid #00d4ff;
+  box-shadow: 0 4px 6px rgba(0, 212, 255, 0.1);
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #00d4ff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.app-main {
+  flex: 1;
+  padding: 40px;
+  overflow-y: auto;
+}
+
+.app-main p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.app-footer {
+  background: #1a1a1a;
+  padding: 20px 40px;
+  border-top: 1px solid #333;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+}
+
+.app-footer p {
+  margin: 0;
+}
